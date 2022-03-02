@@ -15,8 +15,6 @@
 		9351142027CDAF70002A6C9E /* PreviewVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9351141D27CDAF70002A6C9E /* PreviewVideoView.m */; };
 		9351142127CDAF70002A6C9E /* VideoCapturer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9351141F27CDAF70002A6C9E /* VideoCapturer.m */; };
 		9351142927CDB4C1002A6C9E /* BufferVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9351142627CDB4C1002A6C9E /* BufferVideoView.m */; };
-		935114C927CDE143002A6C9E /* libyuv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 935114C827CDE143002A6C9E /* libyuv.dylib */; };
-		935114CA27CDE143002A6C9E /* libyuv.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 935114C827CDE143002A6C9E /* libyuv.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		935114CD27CDF024002A6C9E /* WindowCapturer.m in Sources */ = {isa = PBXBuildFile; fileRef = 935114CC27CDF024002A6C9E /* WindowCapturer.m */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +25,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				935114CA27CDE143002A6C9E /* libyuv.dylib in Embed Libraries */,
 			);
 			name = "Embed Libraries";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,30 +48,6 @@
 		9351141F27CDAF70002A6C9E /* VideoCapturer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCapturer.m; sourceTree = "<group>"; };
 		9351142327CDB4C1002A6C9E /* BufferVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BufferVideoView.h; sourceTree = "<group>"; };
 		9351142627CDB4C1002A6C9E /* BufferVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BufferVideoView.m; sourceTree = "<group>"; };
-		935114A827CDBD69002A6C9E /* libyuv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libyuv.h; sourceTree = "<group>"; };
-		935114B027CDC596002A6C9E /* rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rotate.h; sourceTree = "<group>"; };
-		935114B127CDC596002A6C9E /* video_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = video_common.h; sourceTree = "<group>"; };
-		935114B227CDC596002A6C9E /* macros_msa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macros_msa.h; sourceTree = "<group>"; };
-		935114B327CDC596002A6C9E /* compare_row.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compare_row.h; sourceTree = "<group>"; };
-		935114B427CDC596002A6C9E /* compare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compare.h; sourceTree = "<group>"; };
-		935114B527CDC596002A6C9E /* rotate_row.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rotate_row.h; sourceTree = "<group>"; };
-		935114B627CDC596002A6C9E /* scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scale.h; sourceTree = "<group>"; };
-		935114B727CDC596002A6C9E /* scale_uv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scale_uv.h; sourceTree = "<group>"; };
-		935114B827CDC596002A6C9E /* planar_functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = planar_functions.h; sourceTree = "<group>"; };
-		935114B927CDC596002A6C9E /* convert_argb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convert_argb.h; sourceTree = "<group>"; };
-		935114BA27CDC596002A6C9E /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
-		935114BB27CDC596002A6C9E /* convert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convert.h; sourceTree = "<group>"; };
-		935114BC27CDC596002A6C9E /* row.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = row.h; sourceTree = "<group>"; };
-		935114BD27CDC597002A6C9E /* mjpeg_decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mjpeg_decoder.h; sourceTree = "<group>"; };
-		935114BE27CDC597002A6C9E /* cpu_id.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpu_id.h; sourceTree = "<group>"; };
-		935114BF27CDC597002A6C9E /* convert_from.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convert_from.h; sourceTree = "<group>"; };
-		935114C027CDC597002A6C9E /* convert_from_argb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convert_from_argb.h; sourceTree = "<group>"; };
-		935114C127CDC597002A6C9E /* basic_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = basic_types.h; sourceTree = "<group>"; };
-		935114C227CDC597002A6C9E /* rotate_argb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rotate_argb.h; sourceTree = "<group>"; };
-		935114C327CDC597002A6C9E /* loongson_intrinsics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loongson_intrinsics.h; sourceTree = "<group>"; };
-		935114C427CDC597002A6C9E /* scale_row.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scale_row.h; sourceTree = "<group>"; };
-		935114C527CDC597002A6C9E /* scale_argb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scale_argb.h; sourceTree = "<group>"; };
-		935114C827CDE143002A6C9E /* libyuv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libyuv.dylib; path = MacScreenShare/libyuv/libyuv.dylib; sourceTree = "<group>"; };
 		935114CB27CDF024002A6C9E /* WindowCapturer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WindowCapturer.h; sourceTree = "<group>"; };
 		935114CC27CDF024002A6C9E /* WindowCapturer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WindowCapturer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,7 +57,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				935114C927CDE143002A6C9E /* libyuv.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,7 +87,6 @@
 				9351141927CDAF3E002A6C9E /* CH26xEncoder.m */,
 				9351141527CDAD81002A6C9E /* ScreenShare */,
 				9351142227CDB481002A6C9E /* WindowShare */,
-				935114A727CDBD3A002A6C9E /* libyuv */,
 				9351140527CDAD01002A6C9E /* AppDelegate.h */,
 				9351140627CDAD01002A6C9E /* AppDelegate.m */,
 				9351140827CDAD03002A6C9E /* Assets.xcassets */,
@@ -152,47 +123,8 @@
 		9351143D27CDB908002A6C9E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				935114C827CDE143002A6C9E /* libyuv.dylib */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		935114A727CDBD3A002A6C9E /* libyuv */ = {
-			isa = PBXGroup;
-			children = (
-				935114AF27CDC579002A6C9E /* libyuv */,
-				935114A827CDBD69002A6C9E /* libyuv.h */,
-			);
-			path = libyuv;
-			sourceTree = "<group>";
-		};
-		935114AF27CDC579002A6C9E /* libyuv */ = {
-			isa = PBXGroup;
-			children = (
-				935114C127CDC597002A6C9E /* basic_types.h */,
-				935114B327CDC596002A6C9E /* compare_row.h */,
-				935114B427CDC596002A6C9E /* compare.h */,
-				935114B927CDC596002A6C9E /* convert_argb.h */,
-				935114C027CDC597002A6C9E /* convert_from_argb.h */,
-				935114BF27CDC597002A6C9E /* convert_from.h */,
-				935114BB27CDC596002A6C9E /* convert.h */,
-				935114BE27CDC597002A6C9E /* cpu_id.h */,
-				935114C327CDC597002A6C9E /* loongson_intrinsics.h */,
-				935114B227CDC596002A6C9E /* macros_msa.h */,
-				935114BD27CDC597002A6C9E /* mjpeg_decoder.h */,
-				935114B827CDC596002A6C9E /* planar_functions.h */,
-				935114C227CDC597002A6C9E /* rotate_argb.h */,
-				935114B527CDC596002A6C9E /* rotate_row.h */,
-				935114B027CDC596002A6C9E /* rotate.h */,
-				935114BC27CDC596002A6C9E /* row.h */,
-				935114C527CDC597002A6C9E /* scale_argb.h */,
-				935114C427CDC597002A6C9E /* scale_row.h */,
-				935114B727CDC596002A6C9E /* scale_uv.h */,
-				935114B627CDC596002A6C9E /* scale.h */,
-				935114BA27CDC596002A6C9E /* version.h */,
-				935114B127CDC596002A6C9E /* video_common.h */,
-			);
-			path = libyuv;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -409,8 +341,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				EXCLUDED_ARCHS = arm64;
 				GENERATE_INFOPLIST_FILE = NO;
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/MacScreenShare/libyuv";
+				HEADER_SEARCH_PATHS = /usr/local/include;
 				INFOPLIST_FILE = MacScreenShare/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
@@ -419,11 +352,9 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(SRCROOT)/MacScreenShare/libyuv",
-					"$(PROJECT_DIR)/MacScreenShare/libyuv",
-				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-lyuv";
 				PRODUCT_BUNDLE_IDENTIFIER = com.quantastar.MacScreenShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -439,8 +370,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				EXCLUDED_ARCHS = arm64;
 				GENERATE_INFOPLIST_FILE = NO;
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/MacScreenShare/libyuv";
+				HEADER_SEARCH_PATHS = /usr/local/include;
 				INFOPLIST_FILE = MacScreenShare/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
@@ -449,11 +381,9 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(SRCROOT)/MacScreenShare/libyuv",
-					"$(PROJECT_DIR)/MacScreenShare/libyuv",
-				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-lyuv";
 				PRODUCT_BUNDLE_IDENTIFIER = com.quantastar.MacScreenShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
